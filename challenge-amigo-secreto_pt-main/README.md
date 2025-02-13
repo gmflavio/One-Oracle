@@ -9,7 +9,7 @@ Um aplicativo simples para organizar sorteios de amigo secreto.
 - Sortear um amigo secreto da lista.
 - Reiniciar o jogo.
 
-## Estrutura do Código
+## Tecnologias
 
 ### JavaScript
 
