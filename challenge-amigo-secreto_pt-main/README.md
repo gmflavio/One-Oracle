@@ -11,6 +11,6 @@ Um aplicativo simples para organizar sorteios de amigo secreto.
 
 ## Estrutura do Código
 
-```javascript
-```html
-```css
+javascript
+html
+css
