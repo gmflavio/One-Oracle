@@ -39,3 +39,13 @@ document.querySelector('.button-draw').addEventListener('click', () => {
     
     document.getElementById('resultado').innerHTML = `<li>Amigo Secreto: ${nomeSorteado}</li>`;
 });
+
+function reiniciarJogo() {
+    amigos = [];
+    document.getElementById('amigo').value = '';
+    document.getElementById('listaAmigos').innerHTML = '';
+    document.getElementById('resultado').innerHTML = '';
+}
+
+// Adicionando o evento ao botão de reiniciar
+document.querySelector('.button-reset').addEventListener('click', reiniciarJogo);
